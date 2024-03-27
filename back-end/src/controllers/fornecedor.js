@@ -1,4 +1,4 @@
-import Fornecedor from "../models/Fornecedor";
+import Fornecedor from "../models/Fornecedor.js";
 
 const controller = {} // Objeto vazio
 
