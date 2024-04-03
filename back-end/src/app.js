@@ -35,4 +35,7 @@ app.use('/fornecedores', fornecedorRouter)
 import produtoRouter from './routes/produto.js'
 app.use('/produtos', produtoRouter)
 
+import vendaRouter from './routes/venda.js'
+app.use('/vendas', vendaRouter)
+
 export default app;
